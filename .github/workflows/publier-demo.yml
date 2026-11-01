@@ -1,0 +1,29 @@
+# Publie une démo : quand une branche « demo/<version> » arrive avec le zip découpé en morceaux (dossier parts/),
+# on recolle le zip et on crée la release <version> avec ce zip unique en pièce jointe, puis on supprime la branche.
+name: Publier la démo
+on:
+  push:
+    branches: ["demo/**"]
+permissions:
+  contents: write
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recoller le zip
+        run: |
+          cat parts/Kallstadt_demo_windows.zip.part* > Kallstadt_demo_windows.zip
+          sha256sum -c parts/SHA256SUMS
+          unzip -l Kallstadt_demo_windows.zip
+      - name: Créer la release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="${GITHUB_REF_NAME#demo/}"
+          gh release create "$VERSION" Kallstadt_demo_windows.zip --title "$(cat parts/TITLE)" \
+            --notes-file parts/NOTES.md --latest --target main
+      - name: Supprimer la branche de transport
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: git push origin --delete "$GITHUB_REF_NAME"
