@@ -24,6 +24,7 @@ Prendre le fichier **Kallstadt_demo_windows.zip** dans la dernière version publ
 | 1 à 0 | cases de la barre d'objets |
 | Tab (maintenu) | roue des outils et de l'épée ; appui bref : objet précédent |
 | A | boire une fiole |
+| E · X · V | prières d'Abraham, Bible en main (Vade retro, Aspersion, Cercle de sel) |
 | B / L | construire / volets |
 | Échap · I · C · J · T | pause · sac · personnage · quêtes · maîtrises |
 
