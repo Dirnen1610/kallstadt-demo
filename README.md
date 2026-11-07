@@ -26,6 +26,7 @@ Prendre le fichier **Kallstadt_demo_windows.zip** dans la dernière version publ
 | A | boire une fiole |
 | E · X · V | prières d'Abraham, Bible en main (Vade retro, Aspersion, Cercle de sel) |
 | B / L | construire / volets |
+| M | raccourcis de la démo : aller tout de suite au château de Dracula, à ses Épouses ou aux boss de la mine |
 | Échap · I · C · J · T | pause · sac · personnage · quêtes · maîtrises |
 
 Le zip contient aussi un `LISEZMOI.txt` avec ces mêmes indications.
