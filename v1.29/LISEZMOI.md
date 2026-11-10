@@ -2,11 +2,11 @@
 
 Le zip de la démo (630 Mo) est coupé en 7 morceaux de 95 Mo : GitHub refuse les fichiers de plus de 100 Mo, et les « Releases » ne sont pas accessibles depuis la session qui a publié celle-ci.
 
-## Récupérer la démo
+## Récupérer la démo (un seul téléchargement)
 
-1. Télécharger les **7 fichiers `Kallstadt_demo_windows.zip.part00` à `part06`** et **`assembler.bat`**, tous dans le même dossier. Pour chacun : cliquer dessus, puis sur le bouton de téléchargement (« Download raw file »).
-2. Double-cliquer sur `assembler.bat` : il recolle les morceaux en `Kallstadt_demo_windows.zip`.
-3. Décompresser ce zip, puis lancer `Kallstadt.exe`. Si SmartScreen bloque : **Informations complémentaires**, puis **Exécuter quand même**.
+1. Télécharger tout le dépôt en un seul fichier : https://github.com/Dirnen1610/kallstadt-demo/archive/refs/heads/main.zip
+2. Le décompresser, ouvrir le dossier `v1.29` et double-cliquer sur `assembler.bat`. Il recolle les morceaux, décompresse le jeu dans `Kallstadt_demo` et le lance.
+3. Si SmartScreen bloque : **Informations complémentaires**, puis **Exécuter quand même**.
 
 ## Nouveautés
 

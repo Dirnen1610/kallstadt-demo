@@ -4,7 +4,7 @@ Kallstadt est un RPG de ferme et de survie en coopération (1 à 4 joueurs). Le 
 
 ## Télécharger
 
-**Version 1.29 (Jeanne, le fléau)** : dans le dossier [`v1.29`](v1.29), télécharger les 7 morceaux du zip et `assembler.bat`, puis lancer `assembler.bat`. Le mode d'emploi est dans [`v1.29/LISEZMOI.md`](v1.29/LISEZMOI.md).
+**Version 1.29 (Jeanne, le fléau)**, en un seul téléchargement : [main.zip](https://github.com/Dirnen1610/kallstadt-demo/archive/refs/heads/main.zip). Le décompresser, puis double-cliquer sur `v1.29/assembler.bat` : il recolle les morceaux, décompresse le jeu et le lance. Détails dans [`v1.29/LISEZMOI.md`](v1.29/LISEZMOI.md).
 
 Les versions jusqu'à la 1.27 sont dans l'onglet **Releases** à droite ([dernière publiée](https://github.com/Dirnen1610/kallstadt-demo/releases/latest)).
 
