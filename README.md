@@ -4,7 +4,9 @@ Kallstadt est un RPG de ferme et de survie en coopération (1 à 4 joueurs). Le 
 
 ## Télécharger
 
-Prendre le fichier **Kallstadt_demo_windows.zip** dans la dernière version publiée : onglet **Releases** à droite, ou [ce lien direct](https://github.com/Dirnen1610/kallstadt-demo/releases/latest).
+**Version 1.29 (Jeanne, le fléau)** : dans le dossier [`v1.29`](v1.29), télécharger les 7 morceaux du zip et `assembler.bat`, puis lancer `assembler.bat`. Le mode d'emploi est dans [`v1.29/LISEZMOI.md`](v1.29/LISEZMOI.md).
+
+Les versions jusqu'à la 1.27 sont dans l'onglet **Releases** à droite ([dernière publiée](https://github.com/Dirnen1610/kallstadt-demo/releases/latest)).
 
 ## Lancer
 
@@ -24,7 +26,7 @@ Prendre le fichier **Kallstadt_demo_windows.zip** dans la dernière version publ
 | 1 à 0 | cases de la barre d'objets |
 | Tab (maintenu) | roue des outils et de l'épée ; appui bref : objet précédent |
 | A | boire une fiole |
-| E · X · V | prières d'Abraham, Bible en main (Vade retro, Aspersion, Cercle de sel) |
+| E · X · V | prières : Abraham, Bible en main (Vade retro, Aspersion, Cercle de sel) ; Jeanne, épée en main (Lame de lumière, Deus vult, Terre consacrée) |
 | B / L | construire / volets |
 | M | raccourcis de la démo : aller tout de suite au château de Dracula, à ses Épouses ou aux boss de la mine |
 | Échap · I · C · J · T | pause · sac · personnage · quêtes · maîtrises |
